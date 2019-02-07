@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'When a visitor visits the user index page' do
+describe 'When a visitor visits the user index page', type: :feature do
   describe 'they can click a link to create a user' do
     it 'which will take them to a form where they can input user information' do
       visit users_path
