@@ -1,0 +1,4 @@
+<%= link_to 'Create User', new_user_path %>
+<% @users.each do |user| %>
+  <%= user.name %>
+<% end %>
